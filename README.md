@@ -1,16 +1,36 @@
-# Trae Try
+# Todo App
 
-This is a repository for experimenting with Trae AI capabilities.
+A simple, browser-based Todo application that allows you to manage your tasks. This project was created as part of experimenting with Trae AI capabilities.
 
-## About
+## Features
 
-This project serves as a sandbox for testing and learning about Trae AI features and functionalities.
+- Add new tasks
+- Mark tasks as complete
+- Delete tasks
+- Filter tasks (All, Active, Completed)
+- Data persistence using localStorage
 
 ## Getting Started
 
-Clone this repository to get started:
+No installation required! This is a standalone HTML application.
 
-```bash
-git clone https://github.com/m-a-mohsen/trae_try.git
-cd trae_try
-```
+1. Open the `index.html` file in your web browser
+2. Start adding your tasks
+
+## How to Use
+
+1. Type a task in the input field and click "Add" or press Enter
+2. Click the checkbox next to a task to mark it as complete
+3. Click the × button to delete a task
+4. Use the filter buttons at the bottom to view different sets of tasks:
+   - All: Shows all tasks
+   - Active: Shows only uncompleted tasks
+   - Completed: Shows only completed tasks
+
+## Technical Details
+
+This Todo app is built with:
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- localStorage for data persistence
